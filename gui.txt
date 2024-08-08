@@ -1,0 +1,6 @@
+snap install ngrok
+ngrok config add-authtoken <token>
+ngrok config add-authtoken 2kHNm0xeMYRGM8X0qg3z4FqwFof_5cqrHeHsJJiWf88WVmmTE
+
+ngrok http 5000
+ngrok http 8080
